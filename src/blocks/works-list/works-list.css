@@ -8,3 +8,17 @@
     align-items: start;
     gap: 10px;
 }
+
+@media screen and (max-width: 1000px) {
+    .works-list {
+        grid-template-columns: repeat(2, 240px);
+        justify-content: center;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .works-list {
+        grid-template-columns: 240px;
+    }
+}

@@ -15,4 +15,19 @@
     border-radius: 50%;
     margin-top: .65em;
     margin-right: 24px;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .installment-list__item {
+        line-height: 40px;
+    }
+    .installment-list__item::before {
+        margin-top: .85em;
+    margin-right: 21px;
+
+    }
+    .installment-list__item:not(:first-child) {
+        margin-top: 0;
+    }
 }

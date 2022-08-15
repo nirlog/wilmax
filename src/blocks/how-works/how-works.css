@@ -5,3 +5,10 @@
 .how-works .credit-content__subtitle {
     text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+    .how-works {
+        padding-top: 60px;
+
+    }
+}

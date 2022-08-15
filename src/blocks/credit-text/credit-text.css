@@ -1,3 +1,13 @@
 .credit-text {
     padding: 23px 0 0;
+    margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .credit-text {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 16px 0 0;
+    }
+}
+
