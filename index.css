@@ -23,7 +23,7 @@
 .installment-about__image{width:100%}
 .installment-about__text{margin:0;padding:28px 0 0}
 .credit-two-columns{display:grid;gap:70px;grid-template-columns:1fr 1fr;margin-top:100px}@media screen and (max-width:767px){.credit-two-columns{gap:32px;grid-template-columns:1fr}.credit-two-columns .credit-content__title{font-size:17px;line-height:24px;text-align:center}}
-.credit-one-column.credit-text{margin-top:37px;width:100%}
+.credit-one-column.credit-text{margin-top:37px;width:100%}@media screen and (max-width:767px){.credit-one-column.credit-text{grid-template-columns:1fr;justify-content:center}}
 .credit-text{margin:0;padding:23px 0 0}@media screen and (max-width:767px){.credit-text{font-size:16px;line-height:24px;padding:16px 0 0}}
 .credit-footnote{background:#fff;border:1px solid #eaecee;font-size:16px;line-height:20px;margin-top:100px;padding:32px 35px}@media screen and (max-width:767px){.credit-footnote{font-size:12px;line-height:16px;margin-top:60px;padding:50px}}
 
