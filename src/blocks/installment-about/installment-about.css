@@ -1,0 +1,8 @@
+.installment-about {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #F6F7F8;
+    border-radius: 12px;
+}

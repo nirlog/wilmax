@@ -1,0 +1,10 @@
+.credit-header_desk {
+    display: block;
+    width: 100%;
+
+}
+@media screen and (max-width: 767px) {
+    .credit-header_desk {
+        display: none;
+    }
+}

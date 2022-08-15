@@ -1,0 +1,11 @@
+.works-list__pic {
+    width: 129px;
+    height: 129px;
+    margin: 0 auto;
+    background: #F6F7F8;
+    border-radius: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

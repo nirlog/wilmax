@@ -6,7 +6,99 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wilmax</title>
-</head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      background-color: #ccc;
+      margin: 0;
+      padding: 0;
 
+    }
+    body {
+      width: 100%;
+      max-width: 1920px;
+      background-color: #fff;
+      margin: 0 auto;
+      padding: 0;
+    }
+    img {
+      display: inline-block;
+      vertical-align: bottom;
+    }
+    
+  </style>
+</head>
+<body>
+<div class="credit-header">
+  <img src="<%=require('./images/credit_page_desk.jpg')%>" alt="" class="credit-header_desk">
+  <img src="<%=require('./images/credit_page_mob.jpg')%>" alt="" class="credit-header_mob">
+  <div class="credit-content">
+    <section class="how-works">
+      <h1 class="credit-content__title">Как работает рассрочка от Тинькофф</h1>
+      <p class="credit-content__subtitle">После подписания кредитного договора заберите покупку доступным способом.</p>
+      <ul class="works-list">
+        <li class="works-list__item">
+          <div class="works-list__pic"><img src="<%=require('./images/works-list_1.svg')%>" alt="" class="works-list__icon"></div>
+          <p class="works-list__text">Добавьте товар в корзину</p>
+        </li>
+        <li class="works-list__item">
+          <div class="works-list__pic"><img src="<%=require('./images/works-list_2.svg')%>" alt="" class="works-list__icon"></div>
+          <p class="works-list__text">Выберите способ оплаты «в рассрочку» или «в кредит»</p>
+        </li>
+        <li class="works-list__item">
+          <div class="works-list__pic"><img src="<%=require('./images/works-list_3.svg')%>" alt="" class="works-list__icon"></div>
+          <p class="works-list__text">Заполните короткую онлайн-заявку</p>
+        </li>
+        <li class="works-list__item">
+          <div class="works-list__pic"><img src="<%=require('./images/works-list_4.svg')%>" alt="" class="works-list__icon"></div>
+          <p class="works-list__text">Дождитесь одобрения от банка</p>
+        </li>
+      </ul>
+    </section>
+    <section class="installment">
+      <h2 class="credit-content__title">Рассрочка без переплат за 2 минуты</h2>
+      <div class="installment__content">
+        <div class="installment__pic"><img src="<%=require('./images/installment.jpg')%>" alt="Рассрочка без переплат за 2 минуты" class="installment__image"></div>
+        <div class="installment__list">
+          <ul class="installment-list">
+            <li class="installment-list__item">От 3 000 до 200 000 руб — сумма покупки</li>
+            <li class="installment-list__item">От 3 до 36 месяцев — срок рассрочки</li>
+            <li class="installment-list__item">Решение от банка за 2 минуты</li>
+            <li class="installment-list__item">Достаточно только паспорта</li>
+            <li class="installment-list__item">Подписание с помощью СМС</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+    <section class="installment-about">
+      <div class="installment-about__content">
+        <h2 class="credit-content__title">Рассрочка — это...</h2>
+        <p class="installment-about__text">Рассрочка — это форма кредита, при которой переплаты по кредиту не возникает. Бизнес предоставляет на товар скидку, сумма которой равна сумме процентов по кредиту. <sup>1</sup></p>
+      </div>
+      <div class="installment-about__pic">
+        <img src="<%=require('./images/installment-about.png')%>" alt="Рассрочка — это" class="installment-about__image">
+      </div>
+    </section>
+    <div class="credit-two-columns">
+      <section>
+        <h2 class="credit-content__title">Рассрочка на 3-36 месяцев</h2>
+        <p>Доступна при покупке у партнеров, подключивших сервис рассрочек и кредитования Тинькофф. При оформлении покупки необходимо выбрать оплату с помощью рассрочки и отправить заявку в несколько банков через форму на сайте или попросить менеджера оформить заявку за вас.</p>
+      </section>
+      <section>
+        <h2 class="credit-content__title">Решение от банков</h2>
+        <p>Придет в течение 1-2 минуты, документы с банком необходимо подписать доступным способом: с помощью СМС или на встрече с представителем банка. Сумма рассрочки отправится напрямую партнеру, а вам придет договор и график платежей на почту.</p>
+      </section>
+    </div>
+    
+    <p class="credit-one-column credit-text">
+      Сделать платеж по рассрочке можно через приложение Тинькофф Банк или через терминалы партнеров.<br>
+      Вся подробная информация будет в договоре.
+    </p>
+    <div class="credit-footnote"><sup>1</sup>Процентная ставка по продукту «Рассрочка» — от 24,5% до 49,9% годовых. Минимальная сумма кредита — 3 000 р., максимальная сумма — 500 000 рублей. Срок предоставления кредита от 3 до 36 месяцев. Ваш ТПВ и размер ежемесячного платежа будет определен по результатам рассмотрения заявки. Переплаты по кредиту не возникает за счет предоставления скидки, соразмерной начисленным процентам. Подробнее на сайте www.tinkoff.ru. АО «Тинькофф Банк», ООО «Микрофинансовая компания «Т-Финанс».</div>
+  </div>
+</div>
 </body>
 </html>

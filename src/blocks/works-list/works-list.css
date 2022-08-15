@@ -1,0 +1,10 @@
+.works-list {
+    margin: 0;
+    padding: 60px 0 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
+}

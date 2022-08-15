@@ -1,0 +1,9 @@
+    .credit-header_mob {
+        display: none;
+        width: 100%;
+    }
+@media screen and (max-width: 767px) {
+    .credit-header_mob {
+        display: block;
+    }
+}

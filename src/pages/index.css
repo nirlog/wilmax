@@ -1,0 +1,36 @@
+@import url(../blocks/credit-header/credit-header.css);
+@import url(../blocks/credit-header/credit-header_desk.css);
+@import url(../blocks/credit-header/credit-header_mob.css);
+
+@import url(../blocks/credit-content/credit-content.css);
+@import url(../blocks/credit-content/credit-content__title.css);
+@import url(../blocks/credit-content/credit-content__subtitle.css);
+
+@import url(../blocks/how-works/how-works.css);
+
+@import url(../blocks/works-list/works-list.css);
+@import url(../blocks/works-list/works-list__item.css);
+@import url(../blocks/works-list/works-list__pic.css);
+@import url(../blocks/works-list/works-list__icon.css);
+@import url(../blocks/works-list/works-list__text.css);
+
+@import url(../blocks/installment/installment.css);
+@import url(../blocks/installment/installment__content.css);
+@import url(../blocks/installment/installment__pic.css);
+@import url(../blocks/installment/installment__image.css);
+@import url(../blocks/installment/installment__list.css);
+
+@import url(../blocks/installment-list/installment-list.css);
+@import url(../blocks/installment-list/installment-list__item.css);
+
+@import url(../blocks/installment-about/installment-about.css);
+@import url(../blocks/installment-about/installment-about__content.css);
+@import url(../blocks/installment-about/installment-about__pic.css);
+@import url(../blocks/installment-about/installment-about__image.css);
+@import url(../blocks/installment-about/installment-about__text.css);
+
+@import url(../blocks/credit-two-columns/credit-two-columns.css);
+@import url(../blocks/credit-one-column/credit-one-column.css);
+@import url(../blocks/credit-text/credit-text.css);
+
+@import url(../blocks/credit-footnote/credit-footnote.css);
